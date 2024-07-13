@@ -6,9 +6,9 @@ function Navbar() {
     return (
         <div className='h-10 flex justify-between items-center border-b p-2'>
             <div className='flex items-center'>
-                <img className="w-70 h-6 border-r-2 border-gray-300 pr-2 hidden sm:block" src="../public/trello.png" alt="Trello" />
+                <img className="w-70 h-6 border-r-2 border-gray-300 pr-2 hidden sm:block" src="../../public/trello.png" alt="Trello" />
                 <div className='hidden sm:flex items-center border-r-2 border-gray-300 px-5'>
-                    <img className="h-5" src="../public/trello-mark-blue.png" alt="Trello Mark" />
+                    <img className="h-5" src="../../public/trello-mark-blue.png" alt="Trello Mark" />
                     <span className='text-sm'>Boards</span>
                 </div>
                 <div className="flex items-center w-full">
@@ -23,7 +23,7 @@ function Navbar() {
                     <IoIosNotificationsOutline className="cursor-pointer" />
                 </div>
                 <div className='ml-4'>
-                    <img className="h-8" src="../../User.png" alt="User" />
+                    <img className="h-8" src="../../public/User.png" alt="User" />
                 </div>
             </div>
         </div>

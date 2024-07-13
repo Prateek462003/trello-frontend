@@ -23,7 +23,7 @@ const Brackets = () => {
                     </div>
                 </div>
                 <div className='flex items-center justify-between'>
-                    <img className="h-8 mx-12" src="../public/Users.png" alt="" />
+                    <img className="h-8 mx-12" src="../../public/Users.png" alt="" />
                     <span>Menu</span>
                 </div>
             </div>
